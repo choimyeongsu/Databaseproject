@@ -120,7 +120,7 @@
 								<?php
 								$serverName="localhost";
 								$username="root";
-								$password="rlaehddnd0422@";
+								$password="";
 								try{
 								$con=new PDO("mysql:host=$serverName; dbname=PROJECT", $username, $password);
 								$con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
